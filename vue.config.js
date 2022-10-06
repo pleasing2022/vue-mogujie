@@ -5,6 +5,5 @@ const baseUrl = '/vue-mogujie'
 
 module.exports = defineConfig({
   transpileDependencies: true,
-  publicPath: '/vue-mogujie',
   publicPath: isProd ? baseUrl : '/',
 })
